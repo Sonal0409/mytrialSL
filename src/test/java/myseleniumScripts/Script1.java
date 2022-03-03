@@ -10,7 +10,7 @@ public class Script1 {
 	public void testcase1() {
 		// TODO Auto-generated method stub
 		
-		System.setProperty("webdriver.chrome.driver","src/main/java/com/automation/driver/chromedriver");
+		System.setProperty("webdriver.chrome.driver","/var/lib/jenkins/workspace/seleniumtest/chromedriver");
 		
 		WebDriver driver = new ChromeDriver();
 		
